@@ -141,6 +141,14 @@ header nav ul #meals {
   border: 1px solid blue;
 }
 
+.form-popup button {
+  background-color: #fff;
+  padding: 6px 12px;
+  border-radius: 15px;
+  border: 1px solid blue;
+  font-size: 14px;
+}
+
 .comment-rese button:hover {
   background: blue;
   color: #fff;
@@ -149,6 +157,99 @@ header nav ul #meals {
 .img-conta img {
   border-radius: 15px;
   width: 250px;
+}
+
+.home {
+  width: 100%;
+  background-color: rgb(41, 33, 33);
+}
+
+.popup-home {
+  position: fixed;
+  top: 40px;
+  left: 10%;
+  right: 10%;
+  width: 80%;
+  background-color: white;
+  height: 90%;
+  overflow: scroll;
+  box-shadow: 0 0 5pc #666;
+  border-radius: 10px;
+}
+
+.absolute-pop {
+  position: relative;
+  margin: 0 10px 20px 20px;
+  width: 94%;
+  height: 60%;
+  margin-top: 20px;
+}
+
+.popup-img {
+  width: 250px;
+  margin: 5px auto;
+}
+
+.popup-con img {
+  width: 250px;
+  height: 200px;
+  border-radius: 15px;
+  box-shadow: 0 0 5px #666;
+}
+
+.name-popup {
+  margin: 5px auto;
+}
+
+.description p {
+  text-align: left;
+  font-size: 13px;
+}
+
+.name-popup p {
+  text-align: center;
+  color: red;
+}
+
+footer h2 {
+  margin-left: 1em;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.center-div h2 {
+  text-align: center;
+}
+
+.form-new {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form-popup input,
+.form-popup textarea {
+  width: 250px;
+  background: #fff;
+  padding: 6px 12px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  border: 1px solid rgb(223, 223, 233);
+}
+
+.closeBtn {
+  position: fixed;
+  top: 30px;
+  right: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.closeBtn i {
+  margin: 20px 20px 0 0;
+  font-size: 24px;
 }
 
 footer {
@@ -163,8 +264,6 @@ footer {
   box-shadow: var(--box-shadow);
 }
 
-footer h2 {
-  margin-left: 1em;
-  font-size: 1.2em;
-  font-weight: 500;
+.hide {
+  display: none;
 }

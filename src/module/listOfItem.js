@@ -1,3 +1,5 @@
+import popupList from './popupList.js';
+
 const listItemHome = async () => {
   const mealData = await fetch('https://www.themealdb.com/api/json/v1/1/search.php?f=b');
   const mealJson = await mealData.json();
@@ -33,6 +35,15 @@ const listItemHome = async () => {
         </div>
 
         </div>`;
+    const commentBtn = document.querySelectorAll('.commentBtn');
+    const popupContainer = document.querySelector('.home');
+
+    commentBtn.forEach((btn) => {
+      btn.addEventListener('click', (e) => {
+        popupList(e.target.id);
+        popupContainer.classList.remove('hide');
+      });
+    });
   }
 };
 
