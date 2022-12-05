@@ -32,6 +32,10 @@ header {
   font-size: 1.3em;
 }
 
+.num-like span {
+  color: red;
+}
+
 .meal-popup h4 span {
   text-align: left;
   font-weight: 500;
@@ -74,6 +78,77 @@ header nav ul #meals {
   margin: 0 1em 0 -3.5em;
   font-weight: 500;
   font-size: 1.1em;
+}
+
+.main-Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container-sup {
+  width: 270px;
+  height: auto;
+  background: #fff;
+  margin: 5px;
+  border-radius: 15px;
+  box-shadow: 0 0 5pc #666;
+}
+
+.num-like {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 10px;
+  height: 20px;
+}
+
+.name-like {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  margin: 5px 22px 5px 10px;
+}
+
+.name-like p {
+  font-size: 18px;
+}
+
+.name-like i {
+  font-size: 25px;
+}
+
+.img-conta {
+  width: 250px;
+  margin: 10px auto;
+  border-radius: 15px;
+}
+
+.comment-rese {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.comment-rese button {
+  background: #fff;
+  padding: 8px 12px;
+  border-radius: 12px;
+  font-size: 16px;
+  border: 1px solid blue;
+}
+
+.comment-rese button:hover {
+  background: blue;
+  color: #fff;
+}
+
+.img-conta img {
+  border-radius: 15px;
+  width: 250px;
 }
 
 footer {
