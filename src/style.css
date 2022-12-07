@@ -139,6 +139,7 @@ header nav ul #meals {
   border-radius: 12px;
   font-size: 16px;
   border: 1px solid blue;
+  margin: 0 auto;
 }
 
 .form-popup button {
@@ -147,9 +148,10 @@ header nav ul #meals {
   border-radius: 15px;
   border: 1px solid blue;
   font-size: 14px;
+  margin: 0 20%;
 }
 
-.comment-rese button:hover {
+button:hover {
   background: blue;
   color: #fff;
 }
@@ -157,11 +159,63 @@ header nav ul #meals {
 .img-conta img {
   border-radius: 15px;
   width: 250px;
+  box-shadow: 0 0 3px #eee;
 }
 
-.home {
+.opacity-class {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
   width: 100%;
   background-color: rgb(41, 33, 33);
+  z-index: 10;
+  height: 100vh;
+  opacity: 0.9;
+}
+
+.count-com {
+  width: 90%;
+  margin: 0 auto;
+}
+
+footer h2 {
+  margin-left: 1em;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.num-com h2 {
+  text-align: center;
+  font-size: 18px;
+  color: red;
+}
+
+.add-comment {
+  width: 90%;
+  max-height: 250px;
+  border: 1px solid #666;
+  overflow: scroll;
+  box-shadow: 0 0 5px #555;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.List-item {
+  margin: 0;
+}
+
+.List-item ul {
+  margin: 0;
+}
+
+.List-item li {
+  margin: 0;
+  list-style-type: decimal;
+}
+
+.List-item li:nth-child(even) {
+  background-color: rgb(181, 175, 175);
 }
 
 .popup-home {
@@ -175,6 +229,8 @@ header nav ul #meals {
   overflow: scroll;
   box-shadow: 0 0 5pc #666;
   border-radius: 10px;
+  z-index: 100;
+  opacity: 1;
 }
 
 .absolute-pop {
@@ -211,19 +267,13 @@ header nav ul #meals {
   color: red;
 }
 
-footer h2 {
-  margin-left: 1em;
-  font-size: 1.2em;
-  font-weight: 500;
-}
-
 .center-div h2 {
   text-align: center;
 }
 
 .form-new {
   width: 50%;
-  margin: 0 auto;
+  margin: 0 auto 20px auto;
 }
 
 .form-popup input,
@@ -245,11 +295,13 @@ footer h2 {
   align-items: center;
   justify-content: flex-end;
   cursor: pointer;
+  z-index: 10;
 }
 
 .closeBtn i {
   margin: 20px 20px 0 0;
   font-size: 24px;
+  z-index: 10;
 }
 
 footer {
