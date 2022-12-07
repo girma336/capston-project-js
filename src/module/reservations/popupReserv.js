@@ -97,7 +97,6 @@ const popupReserve = async (mealId) => {
     let currentComment = Number(reserveLen.innerHTML);
     currentComment += 1;
     reserveLen.innerHTML = currentComment;
-
     form.reset();
     postReserve(mealId, user, start, end);
   });
