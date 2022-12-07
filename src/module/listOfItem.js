@@ -1,5 +1,6 @@
 import popupList from './popupList.js';
 import { getLikeForEach, postLike } from './likePostGet.js';
+import popupReserve from './reservations/popupReserv.js';
 
 const listItemHome = async () => {
   const mealData = await fetch('https://www.themealdb.com/api/json/v1/1/search.php?f=b');
@@ -38,6 +39,7 @@ const listItemHome = async () => {
             </div>
         <div class="comment-rese">
             <button class="commentBtn" id="${mealId}">comment</button>
+            <button class="reserveBtn" id="${mealId}">Reserve</button>
         </div>
 
         </div>`;
@@ -70,6 +72,15 @@ const listItemHome = async () => {
             popupList(e.target.id);
             popupContainer.classList.remove('hide');
             popupContainer.classList.add('opacity-class');
+          });
+        });
+        const reserveBtn = document.querySelectorAll('.reserveBtn');
+        const popupRever = document.querySelector('.home-reserve');
+        reserveBtn.forEach((btn) => {
+          btn.addEventListener('click', (e) => {
+            popupReserve(e.target.id);
+            popupRever.classList.remove('hide');
+            popupRever.classList.add('opacity-class');
           });
         });
       });

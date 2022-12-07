@@ -130,7 +130,7 @@ header nav ul #meals {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 12px;
+  margin: 12px 0;
 }
 
 .comment-rese button {
