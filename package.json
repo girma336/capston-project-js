@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/girma336/capston-project-js/issues"
   },
-  "homepage": "https://girma336.github.io/capston-project-js/dist",
+  "homepage": "https://girma336.github.io/capston-project-js",
   "devDependencies": {
     "@babel/core": "^7.20.5",
     "@babel/preset-env": "^7.20.2",
