@@ -3,7 +3,7 @@ import { getComment, postComment } from './commentPostGet.js';
 
 const popupList = async (mealId) => {
   const popupContainer = document.querySelector('.home');
-  const mealData = await fetch(`https:www.themealdb.com/api/json/v1/1/lookup.php?i=${mealId}`);
+  const mealData = await fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${mealId}`);
   const mealJson = await mealData.json();
   const data = mealJson.meals;
   const mealImg = data[0].strMealThumb;
