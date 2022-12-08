@@ -1,3 +1,4 @@
+import fetch from 'cross-fetch';
 import { getReserve, postReserve } from './reserveGetPost.js';
 
 const popupReserve = async (mealId) => {

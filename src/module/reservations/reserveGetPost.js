@@ -1,3 +1,4 @@
+import fetch from 'cross-fetch';
 import addReserve from './addReserve.js';
 
 export const postReserve = async (id, user, start, end) => {
