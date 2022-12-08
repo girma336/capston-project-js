@@ -58,7 +58,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://girma336.github.io/capston-project-js)
+- [Live Demo Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -66,7 +66,7 @@
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
-1. clone the project from link: https://github.com/Victoria129/Javascript-Group-Capstone.git by using git clone (link).
+1. clone the project from link: https://github.com/girma336/capston-project-js.git by using git clone (link).
 2. open it on ur vs code and start using it. 
 
 
@@ -116,7 +116,7 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
