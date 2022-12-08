@@ -161,7 +161,7 @@ button:hover {
   width: 250px;
   box-shadow: 0 0 3px #eee;
 }
-
+/* 
 .opacity-class {
   position: fixed;
   top: 0;
@@ -172,7 +172,7 @@ button:hover {
   z-index: 10;
   height: 100vh;
   opacity: 0.9;
-}
+} */
 
 .count-com {
   width: 90%;
