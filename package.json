@@ -5,7 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "test": "jest",
     "watch": "webpack --watch",
     "start": "webpack serve --open",
