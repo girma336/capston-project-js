@@ -1,5 +1,4 @@
 import itemConter from '../module/itemCounter.js';
-// console.log(itemConter())
 
 describe('Add test for Item Counter', () => {
   it("Search with query 'c' is equal to 47", async () => {
