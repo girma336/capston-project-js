@@ -5,7 +5,7 @@ import { getLikeForEach, postLike } from './likePostGet.js';
 import popupReserve from './reservations/popupReserv.js';
 
 const listItemHome = async () => {
-  const mealData = await fetch('https://www.themealdb.com/api/json/v1/1/search.php?f=f');
+  const mealData = await fetch('https://www.themealdb.com/api/json/v1/1/search.php?f=g');
   const mealJson = await mealData.json();
   const data = mealJson.meals;
 
