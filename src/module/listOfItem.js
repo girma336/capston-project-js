@@ -1,3 +1,5 @@
+import fetch from 'cross-fetch';
+
 import popupList from './popupList.js';
 import { getLikeForEach, postLike } from './likePostGet.js';
 import popupReserve from './reservations/popupReserv.js';

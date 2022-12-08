@@ -1,3 +1,5 @@
+import fetch from 'cross-fetch';
+
 export const postLike = async (id) => {
   const newComment = {
     item_id: id,

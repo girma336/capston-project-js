@@ -1,3 +1,4 @@
+import fetch from 'cross-fetch';
 import addComment from './addComment.js';
 
 export const postComment = async (id, user, comment) => {

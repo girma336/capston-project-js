@@ -1,3 +1,4 @@
+import fetch from 'cross-fetch';
 import { getComment, postComment } from './commentPostGet.js';
 
 const popupList = async (mealId) => {
