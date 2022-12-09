@@ -35,7 +35,7 @@ const popupReserve = async (mealId) => {
                       <p>${description}</p>
                   </div>
                   <div class="count-com">
-                      <div class="num-com"><h2>Reservation (<span id="_${mealId}">${len}</span>)</h2><div>
+                      <div class="num-com"><h2>Reservation (<span id="__${mealId}">${len}</span>)</h2><div>
                       <div class="add-comment">
                           <div class="List-item">
                               <ul class="add-comment-list-r">
@@ -90,7 +90,7 @@ const popupReserve = async (mealId) => {
 
     const end = `${yearEnd}/${monthEnd}/${dayEnd}`;
 
-    const reserveLen = document.getElementById(`_${mealId}`);
+    const reserveLen = document.getElementById(`__${mealId}`);
     const listAdd = document.querySelector('.add-comment-list-r');
     listAdd.innerHTML += `
     <li>${start}  -  <span>${end}</span> by : <span>${user}</span></li>
