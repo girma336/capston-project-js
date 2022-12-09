@@ -19,7 +19,7 @@ const popupReserve = async (mealId) => {
   popupContainer.innerHTML = `
       <div class="popup-home">
           <div class="popup-con">
-              <div class="closeBtn">
+              <div class="closeBtn claseBtn-r">
                   <i class="fa fa-close"></i>
               </div>
               <div class="absolute-pop">
@@ -38,7 +38,7 @@ const popupReserve = async (mealId) => {
                       <div class="num-com"><h2>Reservation (<span id="_${mealId}">${len}</span>)</h2><div>
                       <div class="add-comment">
                           <div class="List-item">
-                              <ul class="add-comment-list">
+                              <ul class="add-comment-list-r">
                               </ul>
                       </div>
                       </div>
@@ -47,8 +47,8 @@ const popupReserve = async (mealId) => {
                       <div class="center-div">
                           <h2>Add Reservation</h2>
                       </div>
-                      <form class="form-popup">
-                          <input type="text" id="user" placeholder="name" required>
+                      <form class="form-popup-r">
+                          <input type="text" id="user-name" placeholder="name" required>
                           <br>
                           <input type="text" id="start_date" placeholder="start date 2022-11-11" required>
                           <br>
@@ -62,17 +62,17 @@ const popupReserve = async (mealId) => {
       </div>   
       `;
 
-  const closeBtn = document.querySelector('.closeBtn');
+  const closeBtn = document.querySelector('.claseBtn-r');
   closeBtn.addEventListener('click', () => {
     popupContainer.classList.add('hide');
     popupContainer.classList.remove('opacity-class');
   });
 
-  const form = document.querySelector('.form-popup');
+  const form = document.querySelector('.form-popup-r');
 
   form.addEventListener('submit', (event) => {
     event.preventDefault();
-    const user = document.getElementById('user').value;
+    const user = document.getElementById('user-name').value;
     const startDate = document.getElementById('start_date').value;
     const endDate = document.getElementById('end_date').value;
     const startDataOne = new Date(startDate);
@@ -91,7 +91,7 @@ const popupReserve = async (mealId) => {
     const end = `${yearEnd}/${monthEnd}/${dayEnd}`;
 
     const reserveLen = document.getElementById(`_${mealId}`);
-    const listAdd = document.querySelector('.add-comment-list');
+    const listAdd = document.querySelector('.add-comment-list-r');
     listAdd.innerHTML += `
     <li>${start}  -  <span>${end}</span> by : <span>${user}</span></li>
     `;

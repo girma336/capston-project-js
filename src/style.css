@@ -142,7 +142,8 @@ header nav ul #meals {
   margin: 0 auto;
 }
 
-.form-popup button {
+.form-popup button,
+.form-popup-r button {
   background-color: #fff;
   padding: 6px 12px;
   border-radius: 15px;
@@ -277,6 +278,8 @@ footer h2 {
 }
 
 .form-popup input,
+.form-popup-r input,
+.form-popup-r textarea,
 .form-popup textarea {
   width: 250px;
   background: #fff;

@@ -63,7 +63,6 @@ const popupList = async (mealId) => {
   closeBtn.addEventListener('click', () => {
     popupContainer.classList.add('hide');
     popupContainer.classList.remove('opacity-class');
-    window.location.reload();
   });
 
   const form = document.querySelector('.form-popup');

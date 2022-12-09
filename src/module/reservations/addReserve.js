@@ -1,8 +1,8 @@
 const addReserve = async (data) => {
   if (data !== undefined) {
-    const commentAdd = document.querySelector('.add-comment-list');
+    const reserveAdd = document.querySelector('.add-comment-list-r');
     data.forEach((element) => {
-      commentAdd.innerHTML += `
+      reserveAdd.innerHTML += `
         <li>${element.date_start}  -  <span>${element.date_end}</span>  by : <span>${element.username}</span></li>
       `;
     });
