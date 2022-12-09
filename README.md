@@ -103,6 +103,7 @@ npm i -D gh-pages
 
 ## Pull Request
 [pull Request](https://github.com/girma336/capston-project-js/pull/22)
+[last PR](https://github.com/girma336/capston-project-js/pull/30)
 
 ## kanBan board
 [KanBan Board](https://github.com/girma336/capston-project-js/projects/1)
