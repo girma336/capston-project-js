@@ -101,7 +101,31 @@ npm i -D gh-pages
 
 - [ ] **[real_app]**
 
+## Pull Request
+[pull Request](https://github.com/girma336/capston-project-js/pull/22)
 
+## kanBan board
+[KanBan Board](https://github.com/girma336/capston-project-js/projects/1)
+
+
+
+	
+Kiana Anderson (Microverse)
+
+Dec 5, 2022, 23:10 GMT+1
+
+Hi Girma,
+ 
+As we could not repair you with another partner, you will complete this week solo.
+ 
+We understand that working alone can be a little challenging, but thankfully our weeks are designed so that you can complete the activities alone. For technical projects or professional skill projects that specifically require input from another person, please reach out to your Standup Team to ask for help. If needed, complete the task alone to the best of your ability. 
+ 
+If you feel blocked, reach out to us as soon as possible in order for us to help you while working alone. Your Standup team is another great resource that you can rely on if you have questions.
+ 
+At the same time, you can always schedule time with a full-time Code Reviewer if you need individual help on a project.
+
+## Video Link 
+[Video](https://drive.google.com/file/d/1QFhlBqi4RH_55V5sI2d_tyqCRJPTKWs0/view?usp=share_link)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
